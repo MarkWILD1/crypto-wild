@@ -152,6 +152,9 @@ function limpiarHTML() {
 
 
 
+
+
+
 /* //Variables
 const formulario2 = document.querySelector('#formulario2');
 const muestra = document.querySelector('#muestra-nombre');

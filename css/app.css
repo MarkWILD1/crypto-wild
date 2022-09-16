@@ -45,6 +45,25 @@ h1::after {
     background-color: #66a2fe;
     display: block;
 }
+
+.sub-title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .8s;
+}
+
+.sub-title2:hover, .sub-title2:focus {
+    background-size: 100% 2px;
+    color: #fff;
+}
+
+
 .container img {
     margin-top: 50px;
 }

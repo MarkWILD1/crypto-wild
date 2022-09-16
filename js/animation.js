@@ -36,3 +36,11 @@ gsap.from('img', {
     ease: "power.out",
 })
 
+gsap.from('.sub-title2', {
+    duration: 1.5,
+    x: 200,
+    delay: 1.7,
+    //scale: 1.7,
+    opacity: 0,
+    ease: "power.out",
+})
