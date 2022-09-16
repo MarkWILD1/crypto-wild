@@ -96,6 +96,13 @@ function crearHTML() {
 function borrarTweet(e) {
      e.preventDefault();
 
+     Swal.fire({
+          title: 'Criptomoneda borrada!.',
+          text: 'Puedes seguir agregando criptos',
+          icon: 'success',
+          confirmButtonText: 'Ok'
+        })
+
      // console.log(e.target.parentElement.dataset.tweetId);
      const id = e.target.parentElement.dataset.tweetId;
      tweets = tweets.filter( tweet => tweet.id != id  );
