@@ -1,6 +1,6 @@
 // Variables
 const listaTweets = document.querySelector('#lista-tweets');
-const formulario = document.querySelector('#formulario');
+const formulario = document.querySelector('#formulario1');
 let tweets = [];
 
 // Event Listeners
